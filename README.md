@@ -83,9 +83,9 @@ where $C_{(i,n)}=i+1$ for $0\leq i \leq n$, and $C_{(i,n)}=2n-i+1$ for $n\leq i 
 
 This is obviously not observed in any the daily experience, so this gravitational potential is needing a renormalization. The details of the renormalization procedure can be found in the original [article](https://academic.oup.com/mnras/article/475/2/2132/4768263) and in my [Ph.D. thesis](https://iris.sissa.it/handle/20.500.11767/57108), with the introduction of the renormalized quantities $\langle V_0\rangle$ and $\langle V_c\rangle$, and the renormalization length-scale $r_{\text{edge}}$ that represents the edge of the galaxy. 
 
-| ![Rotation Curve 1](analytical_plots/V0newtonianrenorm-eps-converted-to.pdf) | ![Rotation Curve 2](analytical_plots/rcnewtonianrenorm-eps-converted-to) |
+| ![Rotation Curve 1](analytical_plots/GRAPHPOTENTIAL07.jpg) | ![Rotation Curve 2](analytical_plots/GRAPHPOTENTIAL13.jpg) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| Renormalized circular velocity                     | Renormalized radial scale                      |
+| Renormalized gravitational potential                     | Renormalized gravitational potential                      |
 
 
 
