@@ -47,7 +47,7 @@ But how did this formula come to my mind? Well, I will provide the full explanat
 
 It all comes to this article [article](https://doi.org/10.1093/mnras/stx429), when observing the experimental rotation curve of the galaxy **M33**. To use the local dark matter density framework, I needed an analytical formula for the experimental points, which I proposed a very simple algebraic fraction that at large distances, produces a completely flat curve: 
 
-$$V(r) = V0\dfrac{(r/r_c) + d}{(r/r_c ) + 1},$$
+$$V(r) = V0\dfrac{(r/r_c) + d}{(r/r_c ) + 1}$$
 
 where:
 - $V_0$ is the asymptotic circular velocity,
