@@ -101,14 +101,19 @@ The renormalized total mass of the galaxy, including dark matter, is given by:
 
 $$M_T = M_0 \dfrac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C_{(i,n)} \left(\dfrac{x}{d}\right)^i,$$
 
-where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2 \langle r_c\rangle}{G}$. .
+where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2 \langle r_c\rangle}{G}$. 
+
 
 ## Results:
 1. **Rotation Curve Fitting**: The empirical profile fits 850 galaxy rotation curves with an unprecedented degree of accuracy.
 2. **Mass Estimation**: The method estimates total mass $M_T$, including both luminous and dark matter components.
 3. **Tully-Fisher Relation**: A Tully-Fisher-like relation was found, with a power-law correlation between total mass and asymptotic velocity:
 
-   $$\log \left( \frac{M_T}{10^{11} M_\odot} \right) = -5.84 + 2.96 \log \left( \frac{V_0}{\text{km/s}} \right)$$
+   $$\log \left( \frac{M_T}{10^{11} M_\odot} \right) = -(5.84\pm0.01) + (2.96\pm0.01) \log \left( \frac{\langle V_0\rangle}{\text{km/s}} \right)$$
+
+with a slope in full agreement with $\Lambda-$CDM predictions.
+
+![Obtained Tully-Fisher relation](analytical_plots/TULLYFISHER.png)
 
 ## Datasets:
 The data used for this study comprises 850 galaxy rotation curves, including both dwarf and spiral galaxies. You can access the complete set of fitted rotation curves in the directory [graphics](https://github.com/elopezfune/Empirical-Velocity-Profiles/tree/main/graphics).
