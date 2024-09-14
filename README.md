@@ -89,6 +89,13 @@ This is obviously not observed in any the daily experience, so this gravitationa
 
 
 
+| ![Rotation Curve 1](analytical_plots/EMVELD07.jpg)         | ![Rotation Curve 2](analytical_plots/EMVELD13.jpg)         |
+|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Velocity prodile with renormalized parameters for $d=0.7$  | Velocity prodile with renormalized parameters for $d=1.3$  |
+
+
+
+
 ### 5. Total Galaxy Mass Estimation:
 The renormalized total mass of the galaxy, including dark matter, is given by:
 
