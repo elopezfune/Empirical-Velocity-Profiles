@@ -20,9 +20,7 @@ This repository contains the code and datasets used for the study of a unified p
 
 ### 1. Centrifugal Equilibrium Equation:
 The dynamics of galaxy rotation curves are governed by the equation:
-\[
-\frac{V^2(r)}{r} = a_h(r) + a_s(r) + a_g(r)
-\]
+$\frac{V^2(r)}{r} = a_h(r) + a_s(r) + a_g(r)$
 where:
 - \(V(r)\) is the total circular velocity at distance \(r\),
 - \(a_h(r)\), \(a_s(r)\), and \(a_g(r)\) are radial accelerations due to dark matter halo, stellar disk, and gaseous disk respectively.
