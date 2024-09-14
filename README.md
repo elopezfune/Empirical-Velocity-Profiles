@@ -21,6 +21,7 @@ This repository contains the code and datasets used for the study of a unified p
 ### 1. Centrifugal Equilibrium Equation:
 The dynamics of galaxy rotation curves are governed by the equation:
 $$\frac{V^2(r)}{r} = a_h(r) + a_s(r) + a_g(r)$$
+
 where:
 - $V(r)$ is the total circular velocity at distance $r$,
 - $a_h(r)$, $a_s(r)$, and $a_g(r)$ are radial accelerations due to dark matter halo, stellar disk, and gaseous disk respectively.
@@ -28,12 +29,14 @@ where:
 ### 2. Dark Matter Halo Density:
 Assuming a spherical dark matter halo, the local dark matter density is computed as:
 $$\rho_h(r) = \frac{1}{4\pi G r^2} \frac{d}{dr} \left( r V^2(r) - r V^2_s(r) - r V^2_g(r) \right)$$
+
 Where:
 - $V_s(r)$ and $V_g(r)$ are the circular velocity contributions from stellar and gaseous components.
 
 ### 3. Empirical Velocity Profile:
 To fit galaxy rotation curves, the following empirical velocity profile was introduced:
 $$V_n(r) = \frac{V_0 d^n (r/r_c)^{3/2} (1 + r/r_c)^{-(n + 1/2)}}{\sqrt{1 + (r/r_c)^2} \sum_{i=0}^n \left( \frac{r/r_c}{d} \right)^i}$$
+
 Where:
 - $V_0$ is the asymptotic circular velocity,
 - $r_c$ is a radial scale,
@@ -46,6 +49,7 @@ $$\frac{d\Phi_n(r)}{dr} = -\frac{V_0^2 d^{2n}}{r_c} \frac{(r/r_c)^2 (1 + r/r_c)^
 ### 5. Total Galaxy Mass Estimation:
 The total mass of the galaxy, including dark matter, is given by:
 $$M_T = M_0 \frac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C(i,n) \left( \frac{x}{d} \right)^i$$
+
 Where $x = r_{\text{edge}} / 2r_c$, $M_0 = \frac{V_0^2 r_c}{G}$, and $r_{\text{edge}}$ represents the edge of the galaxy.
 
 ## Results:
