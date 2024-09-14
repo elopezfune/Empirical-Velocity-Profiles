@@ -1,4 +1,4 @@
-# Empirical-Velocity-Profiles
+# Empirical Velocity Profiles
 This `README.md` covers the essential details and results derived from the article "Empirical Velocity Profiles for Galactic Rotation Curves", published in MNRAS, and includes the relevant mathematical formulations. You can integrate this into your Git repository's documentation for clarity and completeness.
 
 ---
