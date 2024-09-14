@@ -74,10 +74,10 @@ The data used for this study comprises 850 galaxy rotation curves, including bot
 ## Contributing:
 Contributions are welcome! Please submit pull requests with detailed explanations of any new features or bug fixes.
 
-## References:
+## References: 
 1. Persic, M., et al. (1995), Rotation Curves of Spiral Galaxies.
 2. Oh, et al. (2015), Dwarf Spiral Galaxies Rotation Curves.
 3. López Fune, E., et al. (2016), Dark Matter Halo Properties.
+4. (see the full list of references in the [article](https://academic.oup.com/mnras/article/475/2/2132/4768263)
 
-(see the full list of references in the [article](https://academic.oup.com/mnras/article/475/2/2132/4768263)
 ---
