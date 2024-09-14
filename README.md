@@ -58,12 +58,21 @@ I was interested in the centrifugal acceleration $a(r)=V^{2}(r)/r$, which expand
 
 $$a(r) = \dfrac{V^2_0}{r_c}\left(\frac{r}{r_c}\right)^2\left(\dfrac{1}{(\frac{r}{r_c})(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})(1+\frac{r}{r_c})^2} + d\left(\dfrac{1}{(\frac{r}{r_c})^2(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})^3(1+\frac{r}{r_c})^2}\right) \right)$$
 
-from where one can recognize the Navarro-Frenk-White density profile shape function $\frac{1}{(r/r_c)(1+r/r_c)^2}$, by coincidence, let's say.
+from where one can recognize the Navarro-Frenk-White (NFW) density profile shape function $\frac{1}{(r/r_c)(1+r/r_c)^2}$, by coincidence, let's say.
 
 
 The expression for $a(r)$ looks like a power expansion in $d$ till the second order. Generalizing it till order $n$ where $n$ is a positive interger number, I obtained, for the velocity profile:
 
-$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{2-n}}{1 + r/r_c}\sum_{i=0}^n \left(\dfrac{r/r_c}{d}\right)^i$$
+$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{2-n}}{1 + r/r_c}\sum_{i=0}^n \left(\dfrac{r/r_c}{d}\right)^i .$$
+
+If instead of using the NFW density profile, I use the Burkert one $\frac{1}{(1+r/r_c)(1+(r/r_c)^2)}$, then the derived velocity profile obtained is:
+
+$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{3/2} (1 + r/r_c)^{-(n + 1/2)}}{\sqrt{1 + (r/r_c)^2}}\sum_{i=0}^n \left(\dfrac{1+r/r_c}{d} \right)^i .$$
+
+I ran some tests using 850 experimental rotation curves, but when writing the code in Wolfram Mathematica, I forgot to write the 1+ in the fraction inside the sum in the last term of the above formula, which coincide with the initial one presented at the beginning of the section. Long story short, I relized about that and I did again the tests with both formulas, but to my surprised the one without the 1+ gave better results, so the final empirical formula used was :
+
+$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{3/2} (1 + r/r_c)^{-(n + 1/2)}}{\sqrt{1 + (r/r_c)^2}}\sum_{i=0}^n \left( \dfrac{r/r_c}{d} \right)^i .$$
+
 
 ### 4. Gravitational Potential:
 The gravitational potential that induces the circular velocity $V_n(r)$ is derived as:
@@ -88,10 +97,6 @@ Where $x = r_{\text{edge}} / 2r_c$, $M_0 = \frac{V_0^2 r_c}{G}$, and $r_{\text{e
 
 ## Datasets:
 The data used for this study comprises 850 galaxy rotation curves, including both dwarf and spiral galaxies. You can access the complete set of fitted rotation curves in the directory [graphics](https://github.com/elopezfune/Empirical-Velocity-Profiles/tree/main/graphics).
-
-## Usage:
-- **Rotation Curve Fitting**: The fitting of a galaxy's rotation curve can be performed by executing the script `fit_rotation_curve.py`. The script uses the empirical velocity profile to fit the input rotation curve data.
-- **Mass Estimation**: To compute the total galaxy mass, use the `compute_mass.py` script with the output of the rotation curve fitting.
 
 ## Contributing:
 Contributions are welcome! Please submit pull requests with detailed explanations of any new features or bug fixes.
