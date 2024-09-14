@@ -78,6 +78,6 @@ Contributions are welcome! Please submit pull requests with detailed explanation
 1. Persic, M., et al. (1995), Rotation Curves of Spiral Galaxies.
 2. Oh, et al. (2015), Dwarf Spiral Galaxies Rotation Curves.
 3. López Fune, E., et al. (2016), Dark Matter Halo Properties.
-4. (see the full list of references in the [article](https://academic.oup.com/mnras/article/475/2/2132/4768263)
+4. (see the full list of references in the [article](https://academic.oup.com/mnras/article/475/2/2132/4768263) )
 
 ---
