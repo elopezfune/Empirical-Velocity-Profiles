@@ -60,6 +60,11 @@ $$a(r) = \dfrac{V^2_0}{r_c}\left(\frac{r}{r_c}\right)^2\left(\dfrac{1}{(\frac{r}
 
 from where one can recognize the Navarro-Frenk-White density profile shape function $\frac{1}{(r/r_c)(1+r/r_c)^2}$, by coincidence, let's say.
 
+
+The expression for $a(r)$ looks like a power expansion in $d$ till the second order. Generalizing it till order $n$ where $n$ is a positive interger number, I obtained, for the velocity profile:
+
+$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{2-n}}{1 + r/r_c}}\sum_{i=0}^n \left(\dfrac{r/r_c}{d} \right)^i$$
+
 ### 4. Gravitational Potential:
 The gravitational potential that induces the circular velocity $V_n(r)$ is derived as:
 
