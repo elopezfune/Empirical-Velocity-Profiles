@@ -53,7 +53,7 @@ where $C_{(i,n)}=i+1$ for $0\leq i \leq n$, and $C_{(i,n)}=2n-i+1$ for $n\leq i 
 ### 5. Total Galaxy Mass Estimation:
 The total mass of the galaxy, including dark matter, is given by:
 
-$$M_T = M_0 \frac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C(i,n) \left( \frac{x}{d} \right)^i$$
+$$M_T = M_0 \frac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C_{(i,n)} \left( \frac{x}{d} \right)^i$$
 
 Where $x = r_{\text{edge}} / 2r_c$, $M_0 = \frac{V_0^2 r_c}{G}$, and $r_{\text{edge}}$ represents the edge of the galaxy.
 
