@@ -113,7 +113,7 @@ where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2
 
 with a slope in full agreement with $\Lambda-$CDM predictions.
 
-![Obtained Tully-Fisher relation](analytical_plots/TULLYFISHER.png)
+![Obtained Tully-Fisher relation](analytical_plots/TULLYFISHER.jpg)
 
 ## Datasets:
 The data used for this study comprises 850 galaxy rotation curves, including both dwarf and spiral galaxies. You can access the complete set of fitted rotation curves in the directory [graphics](https://github.com/elopezfune/Empirical-Velocity-Profiles/tree/main/graphics).
