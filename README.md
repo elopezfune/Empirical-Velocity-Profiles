@@ -46,7 +46,9 @@ Where:
 ### 4. Gravitational Potential:
 The gravitational potential that induces the circular velocity $V_n(r)$ is derived as:
 
-$$\frac{d\Phi_n(r)}{dr} = -\frac{V_0^2 d^{2n}}{r_c} \frac{(r/r_c)^2 (1 + r/r_c)^{-(2n + 1)}}{1 + (r/r_c)^2}$$
+$$\frac{d\Phi_n(r)}{dr} = -\dfrac{V_0^2 d^{2n}}{r_c} \dfrac{(r/r_c)^2 (1 + r/r_c)^{-(2n + 1)}}{1 + (r/r_c)^2}\sum_{i=0}^{2n} C(i,n) \left( \frac{x}{d} \right)^i$$
+
+where $C(i,n)=i+1$ if $0\leq i \leq n$ and $C(i,n)=2n-i+1$ if $n\leq i \leq 2n$
 
 ### 5. Total Galaxy Mass Estimation:
 The total mass of the galaxy, including dark matter, is given by:
