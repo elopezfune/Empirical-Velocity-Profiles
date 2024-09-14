@@ -52,7 +52,7 @@ $$V(r) = V_0\dfrac{(r/r_c) + d}{(r/r_c ) + 1}$$
 where:
 - $V_0$ is the asymptotic circular velocity,
 - $r_c$ is a radial scale,
-- $d$ is dimensionless fitting parameter.
+- $d$ is a dimensionless fitting parameter.
 
 I was interested in the centrifugal acceleration $a(r)=V^{2}(r)/r$, which expands as :
 
