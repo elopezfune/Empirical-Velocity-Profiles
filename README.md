@@ -111,7 +111,8 @@ where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2
 
    $$\log \left( \frac{M_T}{10^{11} M_\odot} \right) = -(5.84\pm0.01) + (2.96\pm0.01) \log \left( \frac{\langle V_0\rangle}{\text{km/s}} \right)$$
 
-with a slope in full agreement with $\Lambda-$CDM predictions.
+
+with a slope in full agreement with $\Lambda-CDM$ predictions.
 
 ![Obtained Tully-Fisher relation](analytical_plots/TULLYFISHER.jpg)
 
