@@ -1,4 +1,4 @@
-# # Empirical Velocity Profiles
+# Empirical Velocity Profiles
 This `README.md` covers the essential details and results derived from the article "Empirical Velocity Profiles for Galactic Rotation Curves", published in MNRAS, and includes the relevant mathematical formulations. You can integrate this into your Git repository's documentation for clarity and completeness.
 
 ### Author:
@@ -45,15 +45,20 @@ Where:
 
 But how did this formula come to my mind? Well, I will provide the full explanation of how I derived it, which was not included in the original [article](https://academic.oup.com/mnras/article/475/2/2132/4768263) nor in my [Ph.D. thesis](https://iris.sissa.it/handle/20.500.11767/57108).
 
-It all comes to this article [article](https://doi.org/10.1093/mnras/stx429), when observing the experimental rotation curve of the galaxy **M33**. To use the local dark matter density framework, I needed an analytical formula for the experimental points, which I proposed a very simple algebraic fraction that at large distances, produces a completely flat curve: 
+It all comes to this [article](https://doi.org/10.1093/mnras/stx429), when observing the experimental rotation curve of the galaxy **M33**. To use the local dark matter density framework, I needed an analytical formula for the experimental points, which I proposed a very simple algebraic fraction that at large distances, produces a completely flat curve: 
 
-$$V(r) = V0\dfrac{(r/r_c) + d}{(r/r_c ) + 1}$$
+$$V(r) = V_0\dfrac{(r/r_c) + d}{(r/r_c ) + 1}$$
 
 where:
 - $V_0$ is the asymptotic circular velocity,
 - $r_c$ is a radial scale,
 - $d$ is dimensionless fitting parameter.
 
+I was interested in the centrifugal acceleration $a(r)=V^{2}(r)/r$, which expands as :
+
+$$a(r) = \dfrac{V^2_0}{r_c}(r/r_c)^2\left(\dfrac{1}{(r/r_c)(1+r/r_c)^2} + d \dfrac{1}{(r/r_c)(1+r/r_c)^2} + d\left(\dfrac{1}{(r/r_c)^2(1+r/r_c)^2} + d \dfrac{1}{(r/r_c)^3(1+r/r_c)^2}\right) }\right)$$
+
+from where one can recognize the Navarro-Frenk-White density profile shape function $\dfrac{1}{(r/r_c)(1+r/r_c)^2$ by coincidence let's say.
 
 ### 4. Gravitational Potential:
 The gravitational potential that induces the circular velocity $V_n(r)$ is derived as:
