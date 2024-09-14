@@ -31,10 +31,12 @@ $$\rho_h(r) = \frac{1}{4\pi G r^2} \frac{d}{dr} \left( r V^2(r) - r V^2_s(r) - r
 Where:
 - $V_s(r)$ and $V_g(r)$ are the circular velocity contributions from stellar and gaseous components.
 
+After some finite lengh-scales, characteristics of the stellar and gaseous disks, the stellar and gaseous contributions to the local dark matter density vanish, so this local density can be estimated directly from the experimental rotation curve and not depending on any photometric measurements to account for the baryonic component. The drawback is that we need an analytical expression for $V(r)$ in order to be able to compute derivatives. In the next section, I will introduce a velocity profile deduced from empirical observations, and it was the core of my [Ph.D. thesis](https://iris.sissa.it/handle/20.500.11767/57108). 
+
 ### 3. Empirical Velocity Profile:
 To fit galaxy rotation curves, the following empirical velocity profile was introduced:
 
-$$V_n(r) = \frac{V_0 d^n (r/r_c)^{3/2} (1 + r/r_c)^{-(n + 1/2)}}{\sqrt{1 + (r/r_c)^2} \sum_{i=0}^n \left( \frac{r/r_c}{d} \right)^i}$$
+$$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{3/2} (1 + r/r_c)^{-(n + 1/2)}}{\sqrt{1 + (r/r_c)^2}}\sum_{i=0}^n \left( \dfrac{r/r_c}{d} \right)^i$$
 
 Where:
 - $V_0$ is the asymptotic circular velocity,
