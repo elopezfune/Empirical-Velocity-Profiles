@@ -79,14 +79,22 @@ The gravitational potential that induces the circular velocity $V_n(r)$ is deriv
 
 $$\frac{d\Phi_n(r)}{dr} = -\dfrac{V_0^2 d^{2n}}{r_c} \dfrac{(r/r_c)^2 (1 + r/r_c)^{-(2n + 1)}}{1 + (r/r_c)^2}\sum_{i=0}^{2n} C_{(i,n)} \left( \frac{r/r_c}{d} \right)^i$$
 
-where $C_{(i,n)}=i+1$ for $0\leq i \leq n$, and $C_{(i,n)}=2n-i+1$ for $n\leq i \leq 2n$
+where $C_{(i,n)}=i+1$ for $0\leq i \leq n$, and $C_{(i,n)}=2n-i+1$ for $n\leq i \leq 2n.$ Notice that to the gravitational potential contribute $2n+1$ components, but there is one which is not conventional to the known Newtonian physics, that is in charge of producing the flat part of the rotation curves. In fact, at large distances, $\Phi_n(r)$ presents a logarithmic divergence, pointing out that the Universe should be bound to only one galaxy, as it doesn't matter the mass of any particle, it will always be bound to this galaxy. 
+
+This is obviously not observed in any the daily experience, so this gravitational potential is needing a renormalization. The details of the renormalization procedure can be found in the original [article](https://academic.oup.com/mnras/article/475/2/2132/4768263) and in my [Ph.D. thesis](https://iris.sissa.it/handle/20.500.11767/57108), with the introduction of the renormalized quantities $\langle V_0\rangle$ and $\langle V_c\rangle$, and the renormalization length-scale $r_{\text{edge}}$ that represents the edge of the galaxy. 
+
+| ![Rotation Curve 1](analytical_plots/V0newtonianrenorm-eps-converted-to.pdf) | ![Rotation Curve 2](analytical_plots/rcnewtonianrenorm-eps-converted-to) |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| Renormalized circular velocity                     | Renormalized radial scale                      |
+
+
 
 ### 5. Total Galaxy Mass Estimation:
-The total mass of the galaxy, including dark matter, is given by:
+The renormalized total mass of the galaxy, including dark matter, is given by:
 
-$$M_T = M_0 \frac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C_{(i,n)} \left( \frac{x}{d} \right)^i$$
+$$M_T = M_0 \dfrac{d^{2n} x^4 (1 + x)^{-(2n+1)}}{1 + x^2} \sum_{i=0}^{2n} C_{(i,n)} \left(\dfrac{x}{d}\right)^i,$$
 
-Where $x = r_{\text{edge}} / 2r_c$, $M_0 = \frac{V_0^2 r_c}{G}$, and $r_{\text{edge}}$ represents the edge of the galaxy.
+where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2 \langle r_c\rangle}{G}$. .
 
 ## Results:
 1. **Rotation Curve Fitting**: The empirical profile fits 850 galaxy rotation curves with an unprecedented degree of accuracy.
