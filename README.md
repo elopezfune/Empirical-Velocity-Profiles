@@ -56,7 +56,7 @@ where:
 
 I was interested in the centrifugal acceleration $a(r)=V^{2}(r)/r$, which expands as :
 
-$$a(r) = \dfrac{V^2_0}{r_c}(r/r_c)^2\left(\dfrac{1}{(r/r_c)(1+r/r_c)^2} + d \dfrac{1}{(r/r_c)(1+r/r_c)^2} + d\left(\dfrac{1}{(r/r_c)^2(1+r/r_c)^2} + d \dfrac{1}{(r/r_c)^3(1+r/r_c)^2}\right) \right)$$
+$$a(r) = \dfrac{V^2_0}{r_c}(\frac{r}{r_c})^2\left(\dfrac{1}{(\frac{r}{r_c})(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})(1+\frac{r}{r_c})^2} + d\left(\dfrac{1}{(\frac{r}{r_c})^2(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})^3(1+\frac{r}{r_c})^2}\right) \right)$$
 
 from where one can recognize the Navarro-Frenk-White density profile shape function $\frac{1}{(r/r_c)(1+r/r_c)^2}$, by coincidence, let's say.
 
