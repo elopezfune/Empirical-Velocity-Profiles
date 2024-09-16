@@ -106,6 +106,12 @@ where $x=r_{\text{edge}}/2\langle r_c\rangle$, $M_0 = \frac{\langle V_0\rangle^2
 
 ## Results:
 1. **Rotation Curve Fitting**: The empirical profile fits 850 galaxy rotation curves with an unprecedented degree of accuracy.
+
+| ![Rotation Curve of M33](analytical_plots/M33.jpg)          | ![Rotation Curve of UGC 477](analytical_plots/UGC477.jpg)  |
+|:-----------------------------------------------------------:|:----------------------------------------------------------:|
+| Results of the fitting with the RC of M33                   | Results of the fitting with the RC of UGC 477              |
+
+
 2. **Mass Estimation**: The method estimates total mass $M_T$, including both luminous and dark matter components.
 3. **Tully-Fisher Relation**: A Tully-Fisher-like relation was found, with a power-law correlation between total mass and asymptotic velocity:
 
