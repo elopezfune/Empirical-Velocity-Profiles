@@ -58,10 +58,10 @@ I was interested in the centrifugal acceleration $a(r)=V^{2}(r)/r$, which expand
 
 $$a(r) = \dfrac{V^2_0}{r_c}\left(\frac{r}{r_c}\right)^2\left(\dfrac{1}{(\frac{r}{r_c})(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})^2(1+\frac{r}{r_c})^2} + d\left(\dfrac{1}{(\frac{r}{r_c})^2(1+\frac{r}{r_c})^2} + d \dfrac{1}{(\frac{r}{r_c})^3(1+\frac{r}{r_c})^2}\right) \right)$$
 
-from where one can recognize the Navarro-Frenk-White (NFW) density profile shape function $\frac{1}{(r/r_c)(1+r/r_c)^2}$, by coincidence, let's say.
+from where one can recognize the Navarro-Frenk-White (NFW) density profile shape functions $\frac{1}{(r/r_c)^n(1+r/r_c)^2}$, where $n$ is a positive integer number, by coincidence, let's say. The NFW density profile has $n=1$.
 
 
-The expression for $a(r)$ looks like a power expansion in $d$ till the second order. Generalizing it till order $n$ where $n$ is a positive interger number, I obtained, for the velocity profile:
+The expression for $a(r)$ looks like a power expansion in $d$ till the second order, with the power of $d$ the same as $n$. Generalizing it till order $n$, I obtained, for the velocity profile:
 
 $$V_n(r) = \dfrac{V_0 d^n (r/r_c)^{2-n}}{1 + r/r_c}\sum_{i=0}^n \left(\dfrac{r/r_c}{d}\right)^i .$$
 
