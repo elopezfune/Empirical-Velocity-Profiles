@@ -126,7 +126,7 @@ with a slope in full agreement with $\Lambda-CDM$ predictions.
 The data used for this study comprises 850 galaxy rotation curves, including both dwarf and spiral galaxies. You can access the complete set of fitted rotation curves in the directory [graphics](https://github.com/elopezfune/Empirical-Velocity-Profiles/tree/main/graphics).
 
 ## Contributing:
-Contributions are welcome! Please submit pull requests with detailed explanations of any new features or bug fixes.
+Contributions are welcome! 
 
 ## References: 
 1. Persic, M., et al. (1995), Rotation Curves of Spiral Galaxies.
